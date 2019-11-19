@@ -1,0 +1,236 @@
+[
+  {
+    "first_name": "Michael",
+    "last_name": "Bennet",
+    "position": "Senator",
+    "dob": "1964-11-28",
+    "location/origin": "Colorado",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Joe",
+    "last_name": "Biden",
+    "position": "Former Vice President",
+    "dob": "1942-11-20",
+    "location/origin": "Delaware",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Cory",
+    "last_name": "Booker",
+    "position": "Senator",
+    "dob": "1969-04-27",
+    "location/origin": "New Jersey",
+    "gender": "M",
+    "race/ethnicity": "Black/African-American"
+  },
+  {
+    "first_name": "Steve",
+    "last_name": "Bullock",
+    "position": "Governor",
+    "dob": "1966-04-11",
+    "location/origin": "Montana",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Pete",
+    "last_name": "Buttigieg",
+    "position": "Mayor",
+    "dob": "1982-01-19",
+    "location/origin": "South Bend, Indiana",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Julian",
+    "last_name": "Castro",
+    "position": "Former Secretary of HUD (Housing and Urban Development)",
+    "dob": "1974-09-16",
+    "location/origin": "San Antonio, Texas",
+    "gender": "M",
+    "race/ethnicity": "Hispanic/Latinx"
+  },
+  {
+    "first_name": "Bill",
+    "last_name": "de Blasio",
+    "position": "Mayor",
+    "dob": "05-08-1961",
+    "location/origin": "New York City, New York",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "John",
+    "last_name": "Delaney",
+    "position": "Former House Rep.",
+    "dob": "04-16-1963",
+    "location/origin": "Maryland",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Tulsi",
+    "last_name": "Gabbard",
+    "position": "House Rep.",
+    "dob": "1981-04-12",
+    "location/origin": "Hawaii",
+    "gender": "F",
+    "race/ethnicity": "Pacific Islander"
+  },
+  {
+    "first_name": "Kirsten",
+    "last_name": "Gillibrand",
+    "position": "Senator",
+    "dob": "1966-12-09",
+    "location/origin": "New York",
+    "gender": "F",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Mike",
+    "last_name": "Gravel",
+    "position": "Former Senator",
+    "dob": "1930-05-13",
+    "location/origin": "Alaska",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Kamala",
+    "last_name": "Harris",
+    "position": "Senator",
+    "dob": "1964-10-20",
+    "location/origin": "California",
+    "gender": "F",
+    "race/ethnicity": "Multi-racial"
+  },
+  {
+    "first_name": "John",
+    "last_name": "Hickenlooper",
+    "position": "Former Governor",
+    "dob": "1952-02-07",
+    "location/origin": "Colorado",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Jay",
+    "last_name": "Inslee",
+    "position": "Governor",
+    "dob": "1951-02-09",
+    "location/origin": "Washington",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Amy",
+    "last_name": "Klobuchar",
+    "position": "Senator",
+    "dob": "1960-05-25",
+    "location/origin": "Minnesota",
+    "gender": "F",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Wayne",
+    "last_name": "Messam",
+    "position": "Mayor",
+    "dob": "1974-06-07",
+    "location/origin": "Miramar, Florida",
+    "gender": "M",
+    "race/ethnicity": "Black/African-American"
+  },
+  {
+    "first_name": "Seth",
+    "last_name": "Moulton",
+    "position": "House Rep.",
+    "dob": "1978-10-24",
+    "location/origin": "Massachusetts",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Beto",
+    "last_name": "O'Rourke",
+    "position": "Former House Rep.",
+    "dob": "1972-09-26",
+    "location/origin": "Texas",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Tim",
+    "last_name": "Ryan",
+    "position": "House Rep.",
+    "dob": "1973-07-16",
+    "location/origin": "Ohio",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Bernie",
+    "last_name": "Sanders",
+    "position": "Senator",
+    "dob": "1941-09-08",
+    "location/origin": "Vermont",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Joe",
+    "last_name": "Sestak",
+    "position": "Former House Rep.",
+    "dob": "1951-12-12",
+    "location/origin": "Pennsylvania",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Tom",
+    "last_name": "Steyer",
+    "position": "Businessperson",
+    "dob": "1957-06-27",
+    "location/origin": "New York",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Eric",
+    "last_name": "Swalwell",
+    "position": "House Rep.",
+    "dob": "1980-11-16",
+    "location/origin": "California",
+    "gender": "M",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Elizabeth",
+    "last_name": "Warren",
+    "position": "Senator",
+    "dob": "1949-06-22",
+    "location/origin": "Massachusetts",
+    "gender": "F",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Marianne",
+    "last_name": "Williamson",
+    "position": "Author",
+    "dob": "1952-07-08",
+    "location/origin": "Texas",
+    "gender": "F",
+    "race/ethnicity": "White"
+  },
+  {
+    "first_name": "Andrew",
+    "last_name": "Yang",
+    "position": "Businessperson",
+    "dob": "1975-01-13",
+    "location/origin": "New York",
+    "gender": "M",
+    "race/ethnicity": "Asian"
+  }
+]

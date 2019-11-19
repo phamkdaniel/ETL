@@ -1,0 +1,110 @@
+[
+  {
+    "first_name": "Andrea",
+    "last_name": "Mitchell",
+    "gender": "F",
+    "news_organization": "NBC"
+  },
+  {
+    "first_name": "Ashley",
+    "last_name": "Parker",
+    "gender": "F",
+    "news_organization": "MSNBC"
+  },
+  {
+    "first_name": "Rachel",
+    "last_name": "Maddow",
+    "gender": "F",
+    "news_organization": "MSNBC"
+  },
+  {
+    "first_name": "Jorge",
+    "last_name": "Ramos",
+    "gender": "M",
+    "news_organization": "Univision"
+  },
+  {
+    "first_name": "Lester",
+    "last_name": "Holt",
+    "gender": "M",
+    "news_organization": "NBC"
+  },
+  {
+    "first_name": "Erin",
+    "last_name": "Burnett",
+    "gender": "F",
+    "news_organization": "CNN"
+  },
+  {
+    "first_name": "Savannah",
+    "last_name": "Guthrie",
+    "gender": "F",
+    "news_organization": "NBC"
+  },
+  {
+    "first_name": "Chuck",
+    "last_name": "Todd",
+    "gender": "M",
+    "news_organization": "NBC"
+  },
+  {
+    "first_name": "Anderson",
+    "last_name": "Cooper",
+    "gender": "M",
+    "news_organization": "CNN"
+  },
+  {
+    "first_name": "Kristen",
+    "last_name": "Welker",
+    "gender": "F",
+    "news_organization": "NBC"
+  },
+  {
+    "first_name": "Dana",
+    "last_name": "Bash",
+    "gender": "F",
+    "news_organization": "CNN"
+  },
+  {
+    "first_name": "Linsey",
+    "last_name": "Davis",
+    "gender": "F",
+    "news_organization": "ABC"
+  },
+  {
+    "first_name": "Jose",
+    "last_name": "Diaz-Balart",
+    "gender": "M",
+    "news_organization": "MSNBC/Telemundo"
+  },
+  {
+    "first_name": "Don",
+    "last_name": "Lemon",
+    "gender": "M",
+    "news_organization": "CNN"
+  },
+  {
+    "first_name": "David",
+    "last_name": "Muir",
+    "gender": "M",
+    "news_organization": "ABC"
+  },
+  {
+    "first_name": "George",
+    "last_name": "Stephanopoulos",
+    "gender": "M",
+    "news_organization": "ABC"
+  },
+  {
+    "first_name": "Jake",
+    "last_name": "Tapper",
+    "gender": "M",
+    "news_organization": "CNN"
+  },
+  {
+    "first_name": "Marc",
+    "last_name": "Lacey",
+    "gender": "M",
+    "news_organization": "New York Times"
+  }
+]
