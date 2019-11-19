@@ -6,21 +6,17 @@ CREATE TABLE debates (
     date VARCHAR
 );
 
+-- create table of speaker types
+CREATE TABLE speaker_type (
+    id INT PRIMARY KEY,
+    type VARCHAR
+);
+
 -- create table of speaker ids
 CREATE TABLE speaker (
     id INT PRIMARY KEY,
-    type_id INT NOT NULL
-);
-
--- create table for statements made during debates
-CREATE TABLE statements (
-    id INT PRIMARY KEY,
-    speaker_id INT NOT NULL,
-    FOREIGN KEY (speaker_id) REFERENCES speaker(id),
-    statement VARCHAR,
-    time_stamp VARCHAR,
-    debate_id VARCHAR,
-    FOREIGN KEY (debate_id) REFERENCES debates(id)
+    type_id INT NOT NULL,
+    FOREIGN KEY (type_id) REFERENCES speaker_type(id)
 );
 
 -- create table of speaker profiles
@@ -28,8 +24,7 @@ CREATE TABLE speaker_profile (
     speaker_id INT NOT NULL,
     FOREIGN KEY (speaker_id) REFERENCES speaker(id),
     type_id INT NOT NULL,
-    FOREIGN KEY (type_id) REFERENCES speaker(type_id),
-    type VARCHAR,
+    FOREIGN KEY (type_id) REFERENCES speaker_type(id),
     first_name VARCHAR,
     last_name VARCHAR,
     gender VARCHAR,
@@ -39,6 +34,17 @@ CREATE TABLE speaker_profile (
     origin VARCHAR,
     news_organization VARCHAR,
     PRIMARY KEY (speaker_id, type_id)
+);
+
+-- create table for statements made during debates
+CREATE TABLE statements (
+    id INT PRIMARY KEY,
+    speaker_id INT NOT NULL,
+    FOREIGN KEY (speaker_id) REFERENCES speaker(id),
+    statement VARCHAR,
+    time_stamp VARCHAR,
+    debate_id INT,
+    FOREIGN KEY (debate_id) REFERENCES debates(id)
 );
 
 
@@ -52,8 +58,16 @@ VALUES
 (5, 'Houston', 'Texas', '2019-09-12'),
 (6, 'Westerville', 'Ohio', '2019-10-15');
 
+-- insert data for speaker types
+INSERT INTO speaker_type (id, type)
+VALUES
+(1, 'Candidate'),
+(2, 'Proctor'),
+(3, 'Other');
+
+
 -- insert data for speaker ids
-INSERT INTO speaker (id, type_id, type)
+INSERT INTO speaker (id, type_id)
 VALUES
 (1, 1),
 (2, 1),
