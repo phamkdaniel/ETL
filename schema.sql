@@ -1,5 +1,5 @@
 -- create table of debate nights
-CREATE TABLE debates (
+CREATE TABLE IF NOT EXISTS debates (
     id INT PRIMARY KEY,
     city VARCHAR,
     state VARCHAR,
@@ -7,20 +7,20 @@ CREATE TABLE debates (
 );
 
 -- create table of speaker types
-CREATE TABLE speaker_type (
+CREATE TABLE IF NOT EXISTS speaker_type (
     id INT PRIMARY KEY,
     type VARCHAR
 );
 
 -- create table of speaker ids
-CREATE TABLE speaker (
+CREATE TABLE IF NOT EXISTS speaker (
     id INT PRIMARY KEY,
     type_id INT NOT NULL,
     FOREIGN KEY (type_id) REFERENCES speaker_type(id)
 );
 
 -- create table of speaker profiles
-CREATE TABLE speaker_profile (
+CREATE TABLE IF NOT EXISTS speaker_profile (
     speaker_id INT NOT NULL,
     FOREIGN KEY (speaker_id) REFERENCES speaker(id),
     type_id INT NOT NULL,
@@ -37,14 +37,15 @@ CREATE TABLE speaker_profile (
 );
 
 -- create table for statements made during debates
-CREATE TABLE statements (
+CREATE TABLE IF NOT EXISTS statements (
     id INT PRIMARY KEY,
+    debate_id INT,
+    FOREIGN KEY (debate_id) REFERENCES debates(id),
+    statement_no INT,
     speaker_id INT NOT NULL,
     FOREIGN KEY (speaker_id) REFERENCES speaker(id),
-    statement VARCHAR,
-    time_stamp VARCHAR,
-    debate_id INT,
-    FOREIGN KEY (debate_id) REFERENCES debates(id)
+    timestamp VARCHAR,
+    statement VARCHAR
 );
 
 
@@ -94,7 +95,7 @@ VALUES
 (23, 1),
 (24, 1),
 (25, 1),
-(26, 2),
+(26, 1),
 (27, 2),
 (28, 2),
 (29, 2),
@@ -111,4 +112,6 @@ VALUES
 (40, 2),
 (41, 2),
 (42, 2),
-(43, 3);
+(43, 2),
+(44, 2),
+(45, 3);
