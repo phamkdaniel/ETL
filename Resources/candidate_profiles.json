@@ -57,7 +57,7 @@
     "first_name": "Bill",
     "last_name": "de Blasio",
     "position": "Mayor",
-    "dob": "05-08-1961",
+    "dob": "1961-05-08",
     "location/origin": "New York City, New York",
     "gender": "M",
     "race/ethnicity": "White"
@@ -66,7 +66,7 @@
     "first_name": "John",
     "last_name": "Delaney",
     "position": "Former House Rep.",
-    "dob": "04-16-1963",
+    "dob": "1963-04-16",
     "location/origin": "Maryland",
     "gender": "M",
     "race/ethnicity": "White"
