@@ -10,7 +10,7 @@ Given `debate_url` to a transcript of the democratic debate, the function `scrap
 
 `name_map.json` contains names as shown on rev.com where the user manually enter names for remapping.
 
-Running the code in `profiles.ipynb` takes `candidates.txt` and `proctors.txt` and generates [candidate_profiles.json](https://github.com/phamkdaniel/ETL/blob/master/Resources/candidate_profiles.json) and  [proctor_profiles.json](https://github.com/phamkdaniel/ETL/blob/master/Resources/proctor_profiles.json) to store the respective profiles, which the user manually inputs.
+Running the code in `profiles.ipynb` takes `candidates.txt` and `proctors.txt` and generates [candidate_profiles.json](https://github.com/phamkdaniel/ETL/blob/master/Resources/candidate_profiles.json) and  [proctor_profiles.json](https://github.com/phamkdaniel/ETL/blob/master/Resources/proctor_profiles.json) to store the respective profiles from wikipedia, which the user manually inputs. We included age, race/ethnicity, gender, position, and location/origin data in the profiles because we think these are important categories for grouping data. The profiles contain data which relies on some subjective decisions on the "position" field but generally the most recent elected or government office of the candidate was used. For candidates without government experience we used the terms "businessperson" or "author". 
 
 Then the user runs `process_debate(debate_url, debate, night)` to create the csv files for each transcript.
 
