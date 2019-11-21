@@ -41,7 +41,6 @@ CREATE TABLE IF NOT EXISTS statements (
     id INT PRIMARY KEY,
     debate_id INT,
     FOREIGN KEY (debate_id) REFERENCES debates(id),
-    statement_no INT,
     speaker_id INT NOT NULL,
     FOREIGN KEY (speaker_id) REFERENCES speaker(id),
     timestamp VARCHAR,
