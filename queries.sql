@@ -242,3 +242,13 @@ WHERE speaker_type.type = 'Candidate'
 AND speaker.id IN (
     SELECT speaker_id FROM statements WHERE debate_id IN (5,6))
 ORDER BY candidate_name;
+
+
+-- list of candidate profile details
+SELECT CONCAT(speaker_profile.first_name, ' ',speaker_profile.last_name) AS candidate_name,
+gender, date_of_birth, race_ethnicity, current_position, origin
+FROM speaker_profile
+JOIN speaker ON speaker_profile.speaker_id = speaker.id
+JOIN speaker_type ON speaker.type_id = speaker_type.id
+WHERE speaker_type.type = 'Candidate'
+ORDER BY date_of_birth;
