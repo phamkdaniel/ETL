@@ -248,7 +248,6 @@ def scrape_prep(debate_url):
         with open(name_map_dir, 'w') as f:
             json.dump({}, f, indent=2)
 
-    get_names()
     update_speakers_json(debate_url)
 
 def process_debate(debate_url, debate, night):
@@ -263,6 +262,7 @@ def process_debate(debate_url, debate, night):
     :param night: night number of debate
     :type night: int
     """
+    print(f"processing debate {debate}, night {night}")
     transcript = scrape_rev(debate_url)
     transcript_list = build_tr_list(transcript)
     transcript_df = tr_list_to_df(transcript_list)
