@@ -4,6 +4,11 @@
 
 Normalization of transcript csv files to be loaded into a SQL database.
 
+## Standardizing Transcripts
+
+Transcripts of the Democratic debates are available on rev.com, however the names of the speakers are not consistent throughout multiple debates. Here we take the transcripts, standardize the naming convention across the debates, and load the data into a SQL database via postgres.
+
+
 ## Schema/Table Breakdown
 
 Since all of the data started out in one format, it needed to be broken out into multiple tables to make it cleaner, more useable and create new fields that would allow the data to be more useful. The idea was to be able to query against information from all of the debates, and all of the candidates. So the tables that needed to hold the most information would be surrounding the speakers in the debates and the statements each speaker made during the debates. That lead to a table with all the statements made during all the debates and a table with profile details on all the speakers (candidates and proctors). There then had to be a way to identify aspects of the statements. There needed to be a debate table, to decipher which of the 4 debates (across 6 dates) each statement was made; there needed to be a speaker table to identify who was making each statement; and there needed to be a speaker type table to indentify if the speaker was a candidate or a proctor. These were split out to save processing time by simply having ID numbers in the larger statements table, but can easily be joined together to query against (see ERD image).
